@@ -8,7 +8,12 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.19.2"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrecodelima/TesteRelease.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrecodelima/TesteRelease/issues"
+  },
+  "homepage": "https://github.com/andrecodelima/TesteRelease#readme"
 }
