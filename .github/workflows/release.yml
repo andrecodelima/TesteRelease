@@ -26,6 +26,8 @@ jobs:
 
       - name: Ensure semantic-release has execution permissions
         run: chmod +x node_modules/.bin/semantic-release
+            permissions:
+      contents: write
 
       - name: Run tests
         run: npm test
