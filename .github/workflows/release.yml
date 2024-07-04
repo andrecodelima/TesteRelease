@@ -24,6 +24,9 @@ jobs:
       - name: Ensure Jest has execution permissions
         run: chmod +x node_modules/.bin/jest
 
+      - name: Ensure semantic-release has execution permissions
+        run: chmod +x node_modules/.bin/semantic-release
+
       - name: Run tests
         run: npm test
 
